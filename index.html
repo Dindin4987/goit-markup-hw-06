@@ -55,6 +55,48 @@
         <div class="backdrop is-hidden" data-modal> 
             <div class="modal"> 
             <button type="button" class="modal-close-btn" data-modal-close>&times;</button> 
+
+            <p class="modal-text">
+                Leave your contacts and we will call you back
+            </p>
+
+            <form class="service-form">
+                    <label for="name" class="service-label">
+                        <span class="input-label">Name</span>
+                        <input type="text" class="service-input" />
+                        <svg height="24" width="18" class="service-icon">
+                            <use href="./images/icons.svg#icon-person-black-18dp-1-1"></use>
+                        </svg>
+                    </label>
+
+                    <label for="phone" class="service-label">
+                        <span class="input-label">Phone</span>
+                        <input type="text" class="service-input" />
+                        <svg height="24" width="18" class="service-icon">
+                            <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+                        </svg>
+                    </label>
+
+                    <label for="email" class="service-label">
+                        <span class="input-label">Email</span>
+                        <input type="text" class="service-input" />
+                        <svg height="24" width="18" class="service-icon">
+                            <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+                        </svg>
+                    </label>
+
+                    <label for="comment" class="service-label">
+                        <span class="input-label">Comment</span>
+                        <textarea class="service-input-text" name="" id="" rows="7" placeholder="Text input"></textarea>
+                    </label>
+
+                    <div class="service-agree">
+                    <input type="checkbox" name="agree" /> I accept the terms and conditions of the <span class="service-agree-iris">Privacy Policy</span>
+                    </div>
+                    <div class="service-agree-button1">
+                    <button type="submit" class="service-agree-button">Send</button>
+                    </div>
+            </form>
             </div> 
         </div> 
     </section>
@@ -351,7 +393,7 @@
         </p>
     </div>
 
-    <div">
+    <div>
         <p class="footer-2">Social media</p>
     <div class="footer-team-socials">
         <a class="team-socials-icon">
@@ -378,6 +420,18 @@
             </svg>
         </a>
     </div>
+    </div>
+
+    <div>
+        <p class="footer-2">Subscribe</p>
+        <form class="footer-subscribe">
+            <input type="text" placeholder="Email">
+            <button class="footer-subscribe" type="submit">Subscribe 
+                <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-Frame-3"></use>
+            </svg>
+        </button>
+        </form>
     </div>
 </footer>
 <script src="./js/modal.js"></script>
